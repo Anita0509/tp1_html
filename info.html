@@ -4,53 +4,63 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../TP1/img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
     <title>Info</title>
 </head>
 <body>
-    <header style='background-color: rgb(88, 135, 255);'>
+    <header class="header">
         
-        <img src="https://picsum.photos/100" alt="Logo">
+        <div class="logo">
+            <img src="./img/logo.png" alt="Logo" width="100" height="120" />
+        </div> 
         
-        
-        <nav align="center">
-                <a href="index.html">Inicio</a>
-                <a href="info.html">Info</a>
-                <a href="contacto.html">Contacto</a>             
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="info.html">Info</a>
+            <a href="contacto.html">Contacto</a>             
         </nav>
 
     </header>
 
-    <main style="background-color: rgba(88, 135, 255, 0.422);">
-        <section>
-            <h1 align="center">Conocenos!</h1>
+    <main>
+        <section class="fondo__color" id="info">
+            <h1 class="titulos">Conocenos!</h1>
 
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas cumque nesciunt at tempora tempore nisi perferendis quaerat, voluptate aperiam dolores. Necessitatibus, dolores maiores inventore animi eos numquam hic consequuntur pariatur?</p>
 
         </section>
 
-        <section>
+        <section class="fondo__color" id="videos">
             
-            <h2>Mira nuestro tutorial</h2>
+            <h2 class="subtitulos">Mira nuestro tutorial</h2>
 
             <iframe width="560" height="315" src="https://www.youtube.com/embed/p8DW1T3ORG8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         
         </section>
 
     </main>
-    <footer style="background-color: rgba(0, 0, 0, 0.518); color :white">
-           
-        <img src="https://picsum.photos/50" alt="logo">
+
+    <footer class="footer"> <!--style="background-color: rgba(0, 0, 0, 0.518); color :white"-->
+            
+        <div class="logo">
+        <img src="img/Logo.png" alt="logo" width="80" height="100">
+        </div>
         <br>
+        
+        <div class="redes">
+        <h5 class="footer__titulo_redes">Seguinos en nuestras redes</h5>
 
-        <h5>Seguinos en nuestras redes</h5>
-
-        <ul>
+        <ul class="lista__redes">
             <li><a href="">Instagram</a></li>
             <li><a href="">Facebook</a></li>
             <li><a href="">Linkedin</a></li>
         </ul>
+        </div>
+ 
         <br>
-       
 
     </footer>
 </body>

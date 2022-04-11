@@ -1,0 +1,314 @@
+* {
+    margin: 0px;
+    border: 0;
+    box-sizing: border-box;
+    padding:0px;
+  
+}
+
+.header{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header .nav__menu {
+    align-items: center;
+    display: flex;
+    padding: auto;
+}
+
+.logo{
+    padding-left: 50px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+}
+
+.header nav a{
+    padding-right: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.fondo__color{
+    background-color: rgba(186, 184, 184, 0.395);
+    text-align: center;
+}
+
+.titulos{
+    color: rgb(13, 12, 12);
+    text-align: center;
+}
+
+#bienvenidos {
+    padding-top: 40px;
+}
+
+#bienvenidos p{
+    padding: 40px;
+    text-align: center;
+}
+
+#bienvenidos img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 400px;
+}
+
+.subtitulos{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#conocenos p{
+    padding: 40px;
+    text-align: center;
+}
+
+
+#porfolio img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-bottom: 20px;
+}
+
+#info {
+    padding-top: 40px;
+}
+
+#info p{
+    padding: 40px;
+    text-align: center;
+}
+
+#visitanos {
+    padding-top: 40px;
+}
+
+#visitanos p{
+    padding: 40px;
+    text-align: center;
+}
+
+
+form{
+    display: inline-grid;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+form{
+	width:300px;
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+	background-color:#ccc;
+}
+
+form input[type="text"],
+form input[type="email"]{
+	width:180px;
+	padding:3px 10px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:8px 0;
+	display:inline-block;
+}
+
+form input[type="submit"]{
+	width:100%;
+	padding:8px 16px;
+	margin-top:32px;
+	border:1px solid #000;
+	border-radius:5px;
+	display:block;
+	color:#fff;
+	background-color:#000;
+} 
+
+form input[type="submit"]:hover{
+	cursor:pointer;
+}
+
+textarea{
+	width:100%;
+	height:100px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;			
+	margin:8px 0;
+	/*resize: vertical | horizontal | none | both*/
+	resize:none;
+	display:block;
+}
+/* 
+input#nombre, input#email, input#comentario  {
+    writing-mode: horizontal-tb !important;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    margin: 0em;
+    padding: 1px 2px;
+    border-width: 1px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
+
+input[type="submit" i]  {
+    writing-mode: horizontal-tb !important;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: 3px;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    margin: 0em;
+    padding: 1px 2px;
+    border-width: 1px;
+    border-style: inset;
+    border-image: initial;
+}
+ */
+.footer{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+}
+/* 
+ .col-md-4 {
+    height: 100%;
+    padding: 5px 24px;
+    position: relative;
+    width: calc(100% - 640px);
+    float: left;
+}
+.col-md-6 {
+    max-height: 100%;
+    min-height: auto;
+    background-position: right;
+    background-repeat: repeat-y;
+    background-size: contain;
+} 
+
+.header{
+    display: flex;
+}
+
+.logo{
+    padding-left: 50px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+}
+
+.header nav{
+    display: flex;
+    align-items: center;
+    padding-left: 1100px;
+}   
+
+.header nav a{
+    padding-right: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.fondo__color{
+    background-color: rgba(186, 184, 184, 0.395);
+}
+
+
+.titulos{
+    color: rgb(13, 12, 12);
+    text-align: center;
+}
+
+#bienvenidos {
+    padding-top: 40px;
+    display: flex;
+
+}
+
+#bienvenidos p{
+    padding: 40px;
+    text-align: center;
+}
+
+.subtitulos{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+body {
+        width:1080px;
+        margin:0px auto; 
+        font-size:1em;
+        font-family: "Arial", Georgia, Serif;
+        font-size: 15px;
+
+    background: #f0f0f0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.redes{
+    text-align: center;
+    padding-left: 200px;
+    padding-top: 20px;  
+    padding-bottom: 20px;
+    
+}
+
+.footer{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.382);
+}
+
+.footer__titulo_redes{
+    display: flex;
+    color: white;
+    padding-right: 50px;
+}
+
+/*animaciones*/
+
+.animate__animated.animate__flash{
+    animation-delay: 5s;
+} */
